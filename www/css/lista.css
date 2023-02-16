@@ -1,4 +1,4 @@
-*{
+* {
 	margin: 0px;
 	padding: 0px;
 }
@@ -9,7 +9,7 @@ html {
 	overflow-x: hidden;
 }
 
-main{
+main {
 	width: 100%;
 	text-align: center;
 	margin-top: 40px;
@@ -24,8 +24,8 @@ article {
 	padding: 10px;
 	text-decoration: none;
 	color: white;
-    transition: all 0.9s linear;
-    font-family: 'Bebas Neue';
+	transition: all 0.9s linear;
+	font-family: 'Bebas Neue';
 	font-size: 13px;
 	width: 200px;
 	height: 285px;
@@ -36,7 +36,7 @@ article {
 }
 
 .enlace:hover {
-	transform: scale(1.1,1.18);
+	transform: scale(1.1, 1.18);
 }
 
 .enlace:hover .titulo {
@@ -44,7 +44,7 @@ article {
 }
 
 table {
-	display: inline;	
+	display: inline;
 }
 
 figure {
@@ -66,11 +66,12 @@ figure {
 	transition: all 0.3s linear;
 }
 
-td{
+td {
 	width: 205px;
+	background-color: #75CA5B;
 }
 
-.td_imagen{
+.td_imagen {
 	height: 205px;
 	background-color: #EAEDED;
 	border-radius: 10px;
@@ -79,12 +80,12 @@ td{
 	margin-bottom: 10px;
 }
 
-.caja_buscar{
+.caja_buscar {
 	display: inline-block;
 	width: 100%;
 }
 
-.caja_busqueda{
+.caja_busqueda {
 	float: right;
 	margin-top: 30px;
 	margin-bottom: 20px;
@@ -101,7 +102,7 @@ input[type=text] {
 	float: left;
 }
 
-.boton_buscar{
+.boton_buscar {
 	font-size: 15px;
 	height: 37px;
 	width: 37px;
@@ -111,4 +112,10 @@ input[type=text] {
 	border-bottom-right-radius: 10px;
 	background: #ccc;
 	float: left;
+}
+
+.imgIS {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
